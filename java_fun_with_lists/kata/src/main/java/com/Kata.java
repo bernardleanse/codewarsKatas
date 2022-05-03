@@ -1,10 +1,6 @@
 package com;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class Kata 
 {
     public static void main( String[] args )
     {
