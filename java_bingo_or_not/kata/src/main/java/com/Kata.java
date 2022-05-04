@@ -4,7 +4,8 @@ public class Kata
 {
     private static String convertNumToAlpha(int num)
     {
-        return "a";
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        return alphabet.substring(num - 1, num);
     }
     private static boolean includesBingo(int[] numberArray)
     {   
