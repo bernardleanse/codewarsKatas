@@ -2,9 +2,14 @@ package com;
 
 public class Kata 
 {
-    private static boolean includesBingo(int[] numberArray)
+    private static String convertNumToAlpha(int num)
     {
-        return true;
+        return "a";
+    }
+    private static boolean includesBingo(int[] numberArray)
+    {   
+        convertNumToAlpha(numberArray[0]);
+        return false;
     }
     public static String bingo(int[] numberArray)
     {
