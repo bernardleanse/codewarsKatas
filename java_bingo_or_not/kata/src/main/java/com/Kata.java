@@ -17,9 +17,24 @@ public class Kata
         }
         return letters;
     }
+
+    private static boolean listContainsLetter(String letter, ArrayList<String> list)
+    {
+        return list.contains(letter);
+    }
+
     private static boolean includesBingo(int[] numberArray)
     {   
+        String[] requiredCharsForBingo = {"b", "i", "n", "g", "o"};
         ArrayList<String> letters = getLetterList(numberArray);
+
+        for (int i=0; i<requiredCharsForBingo.length; i++)
+        {
+            if (listContainsLetter(requiredCharsForBingo[i], letters) == false)
+            {
+                return false;
+            }
+        }
         return true;
     }
     public static String bingo(int[] numberArray)
