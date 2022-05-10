@@ -1,13 +1,9 @@
 package com;
 
-/**
- * Hello world!
- *
- */
 public class Potato 
 {
-    public static void main( String[] args )
+    public static String potato()
     {
-        System.out.println( "Hello World!" );
+        return "potato";
     }
 }

@@ -1,21 +1,12 @@
 package com;
-
-import static org.junit.Assert.assertTrue;
-
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 public class PotatoTest
-
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void returnsPotato()
     {
-        assertTrue( true );
+        assertEquals("potato", Potato.potato());
     }
 }
