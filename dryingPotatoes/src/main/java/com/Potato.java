@@ -4,7 +4,7 @@ package com;
  * Hello world!
  *
  */
-public class App 
+public class Potato 
 {
     public static void main( String[] args )
     {
