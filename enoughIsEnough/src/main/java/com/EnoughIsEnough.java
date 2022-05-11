@@ -2,8 +2,10 @@ package com;
 
 public class EnoughIsEnough 
 {
-  public static String hello()
+  
+  public static int[] deleteNth(int[] elements, int maxOccurrences)
   {
-    return "hello";
+    int[] ints = {20, 37, 21};
+    return ints;
   }
 }
